@@ -1,0 +1,7 @@
+user_input = input("Enter the string: ")
+input_length = len(user_input)
+print("The length of the string is: ", input_length)
+upper_case = user_input.upper()
+lower_case = user_input.lower()
+print("The string in uppercase is: ", upper_case)
+print("The string in lowercase is: ", lower_case)
