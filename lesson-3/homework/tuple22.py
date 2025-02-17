@@ -1,0 +1,1 @@
+print("range tuple (1 to 10):", tuple(range(1, 11)))
