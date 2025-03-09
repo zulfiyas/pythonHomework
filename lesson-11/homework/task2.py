@@ -43,7 +43,7 @@ ratings = [
 ]
 cursor.executemany("UPDATE Books SET Rating = ? WHERE Title = ?", ratings)
 
-# Advanced Query
+# Advanced 
 cursor.execute("SELECT * FROM Books ORDER BY Year_Published ASC")
 print("Books sorted by Year_Published:", cursor.fetchall())
 

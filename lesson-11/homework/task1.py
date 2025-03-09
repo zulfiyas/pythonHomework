@@ -50,6 +50,5 @@ cursor.execute("SELECT * FROM Roster ORDER BY Age DESC")
 sorted_roster = cursor.fetchall()
 print("Sorted Roster:", sorted_roster)
 
-# Commit changes and close connection
 conn.commit()
 conn.close()
